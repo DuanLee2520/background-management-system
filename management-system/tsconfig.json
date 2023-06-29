@@ -13,6 +13,12 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "baseUrl": "./",//这两行就是配置写了@/ 后面的自动提示，不用这两行也可以
+    "paths": {
+      "@/*":[
+        "src/*"
+      ]
+    },
 
     /* Linting */
     "strict": true,
